@@ -19,6 +19,18 @@ body {
   background-color: hsl(225, 8%, 20%);
 }
 
+.editor-container.collapsed{
+  flex-grow: 0;
+}
+
+.expand-collapse-btn{
+  margin-left : .5rem;
+  background: none;
+  border : none;
+  color: white;
+  cursor: pointer;
+}
+
 .editor-container.collapsed .CodeMirror-scroll {
   position: absolute;
   overflow: hidden !important;
