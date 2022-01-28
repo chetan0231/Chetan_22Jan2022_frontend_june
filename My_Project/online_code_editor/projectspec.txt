@@ -1,6 +1,8 @@
-Create an online code-editor for HTML, CSS, JS code snippets using only HTML, CSS and React. The code editor's functionality will be similar to that of codpen.io
+Create an online code-editor for HTML, CSS, JS code snippets using only HTML, CSS and React.
+Online code-editor is a tool that resides on a remote server and is accessible via browsers.
+The code editor's functionality will be similar to that of codpen.io
 
-Languages used : HTML5,CSS3,JS,React
+Languages used : HTML5,CSS3,JS,React JS
 
 Dependencies used  : {
   "@fortawesome/fontawesome-svg-core": "^1.2.31",
