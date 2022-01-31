@@ -4,6 +4,7 @@ import "codemirror/theme/material.css";
 import "codemirror/mode/xml/xml";
 import "codemirror/mode/javascript/javascript";
 import "codemirror/mode/css/css";
+import "codemirror/addon/edit/closetag"
 import { Controlled } from "react-codemirror2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCompressAlt, faExpandAlt } from "@fortawesome/free-solid-svg-icons";
@@ -41,6 +42,7 @@ const Editor = (props) => {
           mode: language,
           theme: "material",
           lineNumbers: true,
+          autoCloseTags : true
         }}
       />
     </div>
